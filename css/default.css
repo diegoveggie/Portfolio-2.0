@@ -1,0 +1,150 @@
+
+
+body {
+  font-family: 'Roboto', sans-serif;;
+  background-color: #f5f5dc !important;
+  -webkit-font-smoothing: subpixel-antialiased;
+  color: #002266;
+
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #002266;
+}
+
+a:hover {
+   text-decoration: underline;
+   color: #002266;
+}
+
+
+
+ul {
+   list-style-type: none;
+   padding-left: 0;
+}
+
+
+
+.active {
+   text-decoration: underline;
+}
+
+/* small size links - menu */
+
+.small-links {
+  font-size: 13px;
+}
+
+
+
+/* Work + About */
+
+.menu {
+    padding-left: 0px;
+    padding-top: 26px;
+    font-size: 16px;
+}
+
+
+/* columns */
+
+#columm1 {
+    display: inline;
+    width: 25%;
+    float: left;
+}
+
+#columm2 {
+    width: 25%;
+    height: 50px;
+    float: left;
+}
+
+#columm3 {
+    width: 25%;
+    height: 50px;
+    float: left;
+}
+
+#columm4 {
+    width: 25%;
+    float: left;
+}
+
+
+
+.name {
+ font-size: 27px;
+ text-align: left;
+ font-weight: 500 !important;
+ padding-left: 4px;
+}
+
+
+#description {
+  font-size: 13px;
+  color: #002266;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ------MOBILE------- */
+
+@media screen and (min-width: 640px)
+              and (max-width: 1025px) {
+ 
+body {
+    width: calc(100% - 40px);    
+}
+
+
+
+  
+}
+
+
+
+
+
+@media screen and (min-width: 1px)
+              and (max-width: 639px) {
+ 
+body {
+    width: calc(100% - 40px);
+    font-size: 16px;
+}
+                  
+#columm1 {
+    width: 100%;
+}
+
+#columm2 {
+    width: 100%;
+    height: auto;
+}
+
+#columm3 {
+    width: 100%;
+    height: auto;
+}
+
+#columm4 {
+    width: 100%;
+}
+
+
+}
+      
+                  
